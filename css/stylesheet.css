@@ -1,0 +1,177 @@
+                         /*Start Home*/
+
+
+ body{
+	font: 15px/1.5 Arial,sans-secrif;
+   margin: 0;
+   padding: 0;
+   background: #F4F4F4F4;
+}
+
+/* Common Desing*/
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	padding: 0;
+	margin: 0;
+}
+.buttton_1{
+	height: 40px;
+	background-color: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+     /*header*/
+ header{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header .band_name{
+	float: left;
+
+}
+header .band_name h1{
+	margin: 0;
+
+}
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+header .highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/*slider*/
+
+.slaider{
+	min-height: 400px;
+	background: url('../img/showcase.jpg') no-repeat 0 -400px;
+	text-align: center;
+	color: #ffffff;
+}
+.slaider h1{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+
+}
+.slaider p{
+	font-size: 20px;
+}
+/*Subscribe*/
+.subscriber{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+}
+.subscriber h1{
+	float: left;
+
+}
+.subscriber form{
+	float: right;
+	margin-top: 15px;
+}
+.subscriber input{
+	padding: 4px;
+	height: 35px;
+	width: 250px;
+}
+                        /*products Details */
+
+ .products{
+ 	margin-top: 20px;
+
+ }
+ .products .box{
+ 	float: left;
+ 	text-align: center;
+ 	width: 30%;
+ 	padding: 10px;
+ }
+.products .box img{
+	width: 90px;
+}
+
+
+/*Footer*/
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #e8491d;text-align: center;
+}
+
+                    /*     End Hoome   */
+
+                    /*start about*/
+.top_bottm{
+	float: left;
+}
+.artical_top{
+	width: 600px;
+}
+.artical_bollom{
+	width: 600px;
+	background-color: #35424a;
+	padding-left: 8px;
+}
+.artical_right{
+	width: 300px;
+	height: 220px;
+	background-color: #35424a;
+	padding-left: 10px;
+	float: right;
+	margin-top: 20px;
+ }
+                /*End About*/
+
+                /*Services*/
+.services{
+	width: 600px;
+	float: left;
+}
+.service{
+	background-color: #C9D5DC;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.form{
+	width: 250px;
+	height: 250px;
+	float: right;
+   background-color: #35424a;
+   color: #ffffff;
+   padding-bottom: 30px;
+   padding-left: 10px;
+   margin-top: 20px;
+}
+.form input{
+	padding: 4px;
+	height: 20px;
+	width: 200px;
+}
